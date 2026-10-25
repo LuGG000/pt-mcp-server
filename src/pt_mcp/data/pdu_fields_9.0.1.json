@@ -1,0 +1,3093 @@
+{
+ "ACLStatement": [
+  "statement"
+ ],
+ "ARPEntry": [
+  "ipAddress",
+  "macAddress",
+  "portName"
+ ],
+ "ARPPacket": [
+  "hardwareType",
+  "protocolType",
+  "hardWareLength",
+  "protocolLength",
+  "usOperation",
+  "srcMacAddress",
+  "srcIpAddress",
+  "dstMacAddress",
+  "dstIpAddress"
+ ],
+ "ARPRequest": [
+  "ipAddress",
+  "portName"
+ ],
+ "ARPTable": [],
+ "ASAFileContent": [
+  "setName"
+ ],
+ "AclStatement": [
+  "statement"
+ ],
+ "AhHeader": [
+  "nextHeader",
+  "payloadLength",
+  "reserved",
+  "spi",
+  "sequenceNumber",
+  "authenticationData",
+  "icv0",
+  "icv1",
+  "icv2"
+ ],
+ "AnalogPhoneSignal": [
+  "dialedKey",
+  "strSound",
+  "lineNum",
+  "dispMsg",
+  "outGoingNum"
+ ],
+ "ArpEntry": [
+  "ipAddress",
+  "macAddress",
+  "portName"
+ ],
+ "ArpPacket": [
+  "hardwareType",
+  "protocolType",
+  "hardWareLength",
+  "protocolLength",
+  "usOperation",
+  "srcMacAddress",
+  "srcIpAddress",
+  "dstMacAddress",
+  "dstIpAddress"
+ ],
+ "ArpRequest": [
+  "ipAddress",
+  "portName"
+ ],
+ "ArpTable": [],
+ "AuthPayload": [
+  "length",
+  "reserved",
+  "nextPayloadType",
+  "code",
+  "info"
+ ],
+ "BgpAttribASPath": [
+  "flags",
+  "type",
+  "length"
+ ],
+ "BgpAttribLocalPref": [
+  "flags",
+  "type",
+  "length",
+  "preferences"
+ ],
+ "BgpAttribMed": [
+  "flags",
+  "type",
+  "length",
+  "metric"
+ ],
+ "BgpAttribNextHop": [
+  "flags",
+  "type",
+  "length",
+  "nextHop"
+ ],
+ "BgpAttribOrigin": [
+  "flags",
+  "type",
+  "length",
+  "origin"
+ ],
+ "BgpAttribute": [
+  "flags",
+  "type",
+  "length"
+ ],
+ "BgpKeepAlive": [
+  "length",
+  "type"
+ ],
+ "BgpNotification": [
+  "length",
+  "type",
+  "errorCode",
+  "errorSubCode"
+ ],
+ "BgpOpen": [
+  "length",
+  "type",
+  "version",
+  "AS",
+  "holdTime",
+  "speakerID",
+  "OptionalParamLength"
+ ],
+ "BgpPacket": [
+  "length",
+  "type"
+ ],
+ "BgpPathSegment": [],
+ "BgpPrefix": [
+  "length",
+  "prefix"
+ ],
+ "BgpUpdate": [
+  "length",
+  "type",
+  "unfeasibleLength",
+  "pathAttributeLength"
+ ],
+ "BluetoothData": [],
+ "BluetoothDevice": [
+  "deviceName",
+  "macAddress",
+  "isPaired",
+  "isConnected"
+ ],
+ "BluetoothFrame": [
+  "srcMac",
+  "dstMac",
+  "srcService",
+  "dstService"
+ ],
+ "BluetoothManagementSignal": [
+  "deviceName",
+  "tetherServiceUuid"
+ ],
+ "BnepHeader": [
+  "protocolType"
+ ],
+ "BootSystemEntry": [
+  "fileName",
+  "serverIp",
+  "protocol"
+ ],
+ "CAnalogPhoneSignal": [
+  "dialedKey",
+  "strSound",
+  "lineNum",
+  "dispMsg",
+  "outGoingNum"
+ ],
+ "CCapwapControlMessageElement": [
+  "type",
+  "length"
+ ],
+ "CDPAddress": [
+  "cdpType",
+  "cdpLength",
+  "cdpNumberOfIpAddresses"
+ ],
+ "CDPAddressPacket": [
+  "cdpProtocolType",
+  "cdpProtocolLength",
+  "cdpProtocol",
+  "cdpAddressLength",
+  "cdpAddress"
+ ],
+ "CDPCapability": [
+  "cdpType",
+  "cdpLength",
+  "cdpCapability"
+ ],
+ "CDPCoS": [
+  "cdpType",
+  "cdpLength",
+  "cos"
+ ],
+ "CDPDeviceId": [
+  "cdpType",
+  "cdpLength",
+  "cdpDeviceId"
+ ],
+ "CDPFrame": [
+  "cdpVersion",
+  "cdpHoldTime",
+  "cdpChecksum"
+ ],
+ "CDPNativeVlan": [
+  "cdpType",
+  "cdpLength",
+  "nativeVlan"
+ ],
+ "CDPNeighbor": [
+  "deviceId",
+  "localPort",
+  "remotePort",
+  "platform",
+  "capability",
+  "cdpVersion",
+  "holdTime",
+  "softwareVersion",
+  "nativeVlan"
+ ],
+ "CDPPlatform": [
+  "cdpType",
+  "cdpLength",
+  "cdpPlatfrom"
+ ],
+ "CDPPortId": [
+  "cdpType",
+  "cdpLength",
+  "cdpPortId"
+ ],
+ "CDPSoftwareVersion": [
+  "cdpType",
+  "cdpLength",
+  "cdpSoftwareVersion"
+ ],
+ "CDPTypeLengthValue": [
+  "cdpType",
+  "cdpLength"
+ ],
+ "CDPVoipVlan": [
+  "cdpType",
+  "cdpLength",
+  "vlan"
+ ],
+ "CDhcpv6Packet": [],
+ "CEigrpSoftwareVersion": [
+  "type",
+  "length",
+  "iosVersion",
+  "eigrpVersion"
+ ],
+ "CHAPPacket": [
+  "code",
+  "id",
+  "password",
+  "username",
+  "routeIp"
+ ],
+ "CProfinetFrame": [],
+ "CapwapControlMessage": [
+  "type",
+  "seqNum",
+  "msgLength",
+  "flags"
+ ],
+ "CapwapControlMessageElement": [
+  "type",
+  "length"
+ ],
+ "CapwapUdpPacket": [
+  "preamble",
+  "fragments",
+  "macLength",
+  "radioMacAddress",
+  "wirelessInfoLength",
+  "wirelessInfo",
+  "payloadType",
+  "isFakeTls"
+ ],
+ "CdpAddress": [
+  "cdpType",
+  "cdpLength",
+  "cdpNumberOfIpAddresses"
+ ],
+ "CdpAddressPacket": [
+  "cdpProtocolType",
+  "cdpProtocolLength",
+  "cdpProtocol",
+  "cdpAddressLength",
+  "cdpAddress"
+ ],
+ "CdpCapability": [
+  "cdpType",
+  "cdpLength",
+  "cdpCapability"
+ ],
+ "CdpCoS": [
+  "cdpType",
+  "cdpLength",
+  "cos"
+ ],
+ "CdpDeviceId": [
+  "cdpType",
+  "cdpLength",
+  "cdpDeviceId"
+ ],
+ "CdpFrame": [
+  "cdpVersion",
+  "cdpHoldTime",
+  "cdpChecksum"
+ ],
+ "CdpNativeVlan": [
+  "cdpType",
+  "cdpLength",
+  "nativeVlan"
+ ],
+ "CdpNeighbor": [
+  "deviceId",
+  "localPort",
+  "remotePort",
+  "platform",
+  "capability",
+  "cdpVersion",
+  "holdTime",
+  "softwareVersion",
+  "nativeVlan"
+ ],
+ "CdpPlatform": [
+  "cdpType",
+  "cdpLength",
+  "cdpPlatfrom"
+ ],
+ "CdpPortId": [
+  "cdpType",
+  "cdpLength",
+  "cdpPortId"
+ ],
+ "CdpSoftwareVersion": [
+  "cdpType",
+  "cdpLength",
+  "cdpSoftwareVersion"
+ ],
+ "CdpTypeLengthValue": [
+  "cdpType",
+  "cdpLength"
+ ],
+ "CdpVoipVlan": [
+  "cdpType",
+  "cdpLength",
+  "vlan"
+ ],
+ "CellularHeader": [
+  "frameControl",
+  "duration",
+  "id",
+  "deviceName",
+  "cellDeviceName",
+  "address1",
+  "address2",
+  "address3",
+  "sequenceControl",
+  "address4",
+  "crc"
+ ],
+ "ChapPacket": [
+  "code",
+  "id",
+  "password",
+  "username",
+  "routeIp"
+ ],
+ "CipPdu": [
+  "data"
+ ],
+ "CloudSubLink": [
+  "name",
+  "dlci"
+ ],
+ "CommandHistory": [
+  "maxCount"
+ ],
+ "CommandPrivilege": [
+  "command",
+  "bAll",
+  "level"
+ ],
+ "CustomIOPdu": [
+  "customProtocol",
+  "customPduType",
+  "customFieldsJson"
+ ],
+ "CustomPdu": [
+  "customProtocol",
+  "customPduType",
+  "customFieldsJson"
+ ],
+ "DHCPOption": [
+  "getOptionCode",
+  "getOptionLength"
+ ],
+ "DHCPOptionClientIdentifier": [
+  "getOptionCode",
+  "getOptionLength",
+  "getHardwareType",
+  "getClientIdentifier"
+ ],
+ "DHCPOptionDomainName": [
+  "getOptionCode",
+  "getOptionLength",
+  "getDomainName"
+ ],
+ "DHCPOptionDomainNameServer": [
+  "getOptionCode",
+  "getOptionLength",
+  "getDomainNameServer"
+ ],
+ "DHCPOptionVendorSpecific": [
+  "getOptionCode",
+  "getOptionLength",
+  "getVendorSpecificInfo"
+ ],
+ "DHCPPacket": [
+  "messageOpCode",
+  "messageType",
+  "hardwareAddressType",
+  "hardwareAddressLength",
+  "hops",
+  "transactionID",
+  "timeInSeconds",
+  "flags",
+  "clientIpAddress",
+  "yourIpAddress",
+  "serverIpAddress",
+  "relayAgentIpAddress",
+  "gatewayIpAddress",
+  "clientMacAddress",
+  "serverName",
+  "domainName",
+  "bootFileName",
+  "leaseTime",
+  "rebindTime",
+  "renewTime",
+  "gatewaySubnetAddress",
+  "tftpAddress",
+  "requestIp",
+  "wlcAddress"
+ ],
+ "DHCPPoolLease": [
+  "ipAddress",
+  "macAddress",
+  "leaseTime",
+  "port"
+ ],
+ "DHCPSubOptionCircuitId": [
+  "getOptionCode",
+  "getOptionLength",
+  "getCircuitIdType",
+  "getCircuitIdLength",
+  "getVlanField",
+  "getModuleField",
+  "getPortField"
+ ],
+ "DHCPSubOptionRemoteId": [
+  "getOptionCode",
+  "getOptionLength",
+  "getRemoteIdType",
+  "getRemoteIdLength",
+  "getMacAddress"
+ ],
+ "DHCPv6DUIDLL": [
+  "linkLayerAddress"
+ ],
+ "DHCPv6Header": [
+  "trasactionId"
+ ],
+ "DHCPv6Option": [
+  "length"
+ ],
+ "DHCPv6OptionClientServerId": [
+  "length",
+  "DUID"
+ ],
+ "DHCPv6OptionDNS": [
+  "length"
+ ],
+ "DHCPv6OptionDomainSearch": [
+  "length"
+ ],
+ "DHCPv6OptionElapsedTime": [
+  "length",
+  "elapsedTime"
+ ],
+ "DHCPv6OptionIAAddress": [
+  "length",
+  "address",
+  "preferredLifeTime",
+  "validLifeTime"
+ ],
+ "DHCPv6OptionIANA": [
+  "length",
+  "IAID",
+  "T1",
+  "T2"
+ ],
+ "DHCPv6OptionIAPrefix": [
+  "length",
+  "preferredLifeTime",
+  "validLifeTime",
+  "prefixLength",
+  "prefix"
+ ],
+ "DHCPv6OptionIAPrefixDelegation": [
+  "length",
+  "IAID",
+  "T1",
+  "T2"
+ ],
+ "DHCPv6OptionRequest": [
+  "length"
+ ],
+ "DHCPv6OptionStatusCode": [
+  "length",
+  "statusMessage"
+ ],
+ "DHCPv6Packet": [],
+ "DLCIInfo": [
+  "dlci",
+  "isActive"
+ ],
+ "DLCITable": [],
+ "DNSHeader": [
+  "queryId",
+  "response",
+  "opCode",
+  "isAuthoritative",
+  "isTruncated",
+  "isRecursionDesired",
+  "isRecurionAvailable",
+  "responseCode",
+  "numQuestions",
+  "numAnswerRecords",
+  "numAdditionalRecords"
+ ],
+ "DNSMessage": [],
+ "DNSRAOption": [
+  "lifetime"
+ ],
+ "DNSResourceRecord": [
+  "name",
+  "recordClass",
+  "ttl",
+  "length",
+  "dateTime",
+  "isAnsRecord"
+ ],
+ "DNSRrA": [
+  "name",
+  "recordClass",
+  "ttl",
+  "length",
+  "dateTime",
+  "isAnsRecord",
+  "ipAddress"
+ ],
+ "DNSRrAv6": [
+  "name",
+  "recordClass",
+  "ttl",
+  "length",
+  "dateTime",
+  "isAnsRecord",
+  "ipAddress"
+ ],
+ "DNSRrCname": [
+  "name",
+  "recordClass",
+  "ttl",
+  "length",
+  "dateTime",
+  "isAnsRecord",
+  "hostName"
+ ],
+ "DNSRrNs": [
+  "name",
+  "recordClass",
+  "ttl",
+  "length",
+  "dateTime",
+  "isAnsRecord",
+  "serverName"
+ ],
+ "DNSRrSoa": [
+  "name",
+  "recordClass",
+  "ttl",
+  "length",
+  "dateTime",
+  "isAnsRecord",
+  "primaryServerName",
+  "responsiblePersonalMailBox",
+  "serialNo",
+  "refreshTime",
+  "retryTime",
+  "expiryTime",
+  "minimumTtl"
+ ],
+ "DTPFrame": [
+  "version",
+  "domainName",
+  "type",
+  "neighborMac"
+ ],
+ "DhcpOption": [
+  "getOptionCode",
+  "getOptionLength"
+ ],
+ "DhcpOptionClientIdentifier": [
+  "getOptionCode",
+  "getOptionLength",
+  "getHardwareType",
+  "getClientIdentifier"
+ ],
+ "DhcpOptionDomainName": [
+  "getOptionCode",
+  "getOptionLength",
+  "getDomainName"
+ ],
+ "DhcpOptionDomainNameServer": [
+  "getOptionCode",
+  "getOptionLength",
+  "getDomainNameServer"
+ ],
+ "DhcpOptionVendorSpecific": [
+  "getOptionCode",
+  "getOptionLength",
+  "getVendorSpecificInfo"
+ ],
+ "DhcpPacket": [
+  "messageOpCode",
+  "messageType",
+  "hardwareAddressType",
+  "hardwareAddressLength",
+  "hops",
+  "transactionID",
+  "timeInSeconds",
+  "flags",
+  "clientIpAddress",
+  "yourIpAddress",
+  "serverIpAddress",
+  "relayAgentIpAddress",
+  "gatewayIpAddress",
+  "clientMacAddress",
+  "serverName",
+  "domainName",
+  "bootFileName",
+  "leaseTime",
+  "rebindTime",
+  "renewTime",
+  "gatewaySubnetAddress",
+  "tftpAddress",
+  "requestIp",
+  "wlcAddress"
+ ],
+ "DhcpPoolLease": [
+  "ipAddress",
+  "macAddress",
+  "leaseTime",
+  "port"
+ ],
+ "DhcpSubOptionCircuitId": [
+  "getOptionCode",
+  "getOptionLength",
+  "getCircuitIdType",
+  "getCircuitIdLength",
+  "getVlanField",
+  "getModuleField",
+  "getPortField"
+ ],
+ "DhcpSubOptionRemoteId": [
+  "getOptionCode",
+  "getOptionLength",
+  "getRemoteIdType",
+  "getRemoteIdLength",
+  "getMacAddress"
+ ],
+ "Dhcpv6DUIDLL": [
+  "linkLayerAddress"
+ ],
+ "Dhcpv6Header": [
+  "trasactionId"
+ ],
+ "Dhcpv6Option": [
+  "length"
+ ],
+ "Dhcpv6OptionClientServerId": [
+  "length",
+  "DUID"
+ ],
+ "Dhcpv6OptionDNS": [
+  "length"
+ ],
+ "Dhcpv6OptionDomainSearch": [
+  "length"
+ ],
+ "Dhcpv6OptionElapsedTime": [
+  "length",
+  "elapsedTime"
+ ],
+ "Dhcpv6OptionIAAddress": [
+  "length",
+  "address",
+  "preferredLifeTime",
+  "validLifeTime"
+ ],
+ "Dhcpv6OptionIANA": [
+  "length",
+  "IAID",
+  "T1",
+  "T2"
+ ],
+ "Dhcpv6OptionIAPrefix": [
+  "length",
+  "preferredLifeTime",
+  "validLifeTime",
+  "prefixLength",
+  "prefix"
+ ],
+ "Dhcpv6OptionIAPrefixDelegation": [
+  "length",
+  "IAID",
+  "T1",
+  "T2"
+ ],
+ "Dhcpv6OptionRequest": [
+  "length"
+ ],
+ "Dhcpv6OptionStatusCode": [
+  "length",
+  "statusMessage"
+ ],
+ "DialFrame": [
+  "isRouterOrPc",
+  "phoneNumber",
+  "message",
+  "msgType"
+ ],
+ "DlciInfo": [
+  "dlci",
+  "isActive"
+ ],
+ "DlciTable": [],
+ "DnsHeader": [
+  "queryId",
+  "response",
+  "opCode",
+  "isAuthoritative",
+  "isTruncated",
+  "isRecursionDesired",
+  "isRecurionAvailable",
+  "responseCode",
+  "numQuestions",
+  "numAnswerRecords",
+  "numAdditionalRecords"
+ ],
+ "DnsMessage": [],
+ "DnsRAOption": [
+  "lifetime"
+ ],
+ "DnsResourceRecord": [
+  "name",
+  "recordClass",
+  "ttl",
+  "length",
+  "dateTime",
+  "isAnsRecord"
+ ],
+ "DnsRrA": [
+  "name",
+  "recordClass",
+  "ttl",
+  "length",
+  "dateTime",
+  "isAnsRecord",
+  "ipAddress"
+ ],
+ "DnsRrAv6": [
+  "name",
+  "recordClass",
+  "ttl",
+  "length",
+  "dateTime",
+  "isAnsRecord",
+  "ipAddress"
+ ],
+ "DnsRrCname": [
+  "name",
+  "recordClass",
+  "ttl",
+  "length",
+  "dateTime",
+  "isAnsRecord",
+  "hostName"
+ ],
+ "DnsRrNs": [
+  "name",
+  "recordClass",
+  "ttl",
+  "length",
+  "dateTime",
+  "isAnsRecord",
+  "serverName"
+ ],
+ "DnsRrSoa": [
+  "name",
+  "recordClass",
+  "ttl",
+  "length",
+  "dateTime",
+  "isAnsRecord",
+  "primaryServerName",
+  "responsiblePersonalMailBox",
+  "serialNo",
+  "refreshTime",
+  "retryTime",
+  "expiryTime",
+  "minimumTtl"
+ ],
+ "Dot1qHeader": [
+  "dstMacAddress",
+  "srcMacAddress",
+  "frameCheckSequence",
+  "tpid",
+  "userPriority",
+  "cfi",
+  "vlanId",
+  "typeLength"
+ ],
+ "Dot1qRctHeader": [
+  "dstMacAddress",
+  "srcMacAddress",
+  "frameCheckSequence",
+  "tpid",
+  "userPriority",
+  "cfi",
+  "vlanId",
+  "typeLength",
+  "sequenceNumber",
+  "lanIdentifier",
+  "frameSize",
+  "prpSuffix"
+ ],
+ "DtpFrame": [
+  "version",
+  "domainName",
+  "type",
+  "neighborMac"
+ ],
+ "EIGRPExternal": [
+  "type",
+  "length",
+  "nextHop",
+  "delay",
+  "bandwidth",
+  "mtu",
+  "hopCount",
+  "reliability",
+  "load",
+  "prefixLength",
+  "network",
+  "originalRouter",
+  "routeAS",
+  "adminTag",
+  "externalMetric",
+  "externalProtocolType"
+ ],
+ "EIGRPInternal": [
+  "type",
+  "length",
+  "nextHop",
+  "delay",
+  "bandwidth",
+  "mtu",
+  "hopCount",
+  "reliability",
+  "load",
+  "prefixLength",
+  "network"
+ ],
+ "EIGRPNeighbor": [
+  "neighborAddress",
+  "portName",
+  "holdTime",
+  "upTime",
+  "seqNumber",
+  "srtt",
+  "rto",
+  "lastHeardTime",
+  "lastUpdateTime"
+ ],
+ "EIGRPPacket": [
+  "version",
+  "operationCode",
+  "checkSum",
+  "flag",
+  "sequenceNumber",
+  "ackNumber",
+  "asNumber"
+ ],
+ "EIGRPParameters": [
+  "type",
+  "length",
+  "k1",
+  "k2",
+  "k3",
+  "k4",
+  "k5",
+  "reserved",
+  "holdTime"
+ ],
+ "EIGRPRoutingEntry": [
+  "typeOfProtocol",
+  "networkId",
+  "subnetMask",
+  "portName",
+  "nextHop",
+  "adminDistance",
+  "metric",
+  "reportedDistance"
+ ],
+ "EIGRPSoftwareVersion": [
+  "type",
+  "length",
+  "iosVersion",
+  "eigrpVersion"
+ ],
+ "EIGRPSummaryAddress": [
+  "network",
+  "subnetMask",
+  "adminDistance"
+ ],
+ "EIGRPTlv": [
+  "type",
+  "length"
+ ],
+ "EIGRPTopologyEntry": [
+  "network",
+  "subnetMask",
+  "feasibleDistance",
+  "reportedDistance",
+  "successorCount"
+ ],
+ "EIGRPTopologyTable": [],
+ "EIGRPv6External": [
+  "type",
+  "length",
+  "nextHop",
+  "originalRouter",
+  "routeAS",
+  "exMetric",
+  "exProtocolType",
+  "adminTag",
+  "delay",
+  "bandwidth",
+  "mtu",
+  "hopcount",
+  "reliability",
+  "load",
+  "reserved",
+  "prefixLength",
+  "destination"
+ ],
+ "EIGRPv6Internal": [
+  "type",
+  "length",
+  "nextHop",
+  "delay",
+  "bandwidth",
+  "mtu",
+  "hopcount",
+  "reliability",
+  "load",
+  "reserved",
+  "prefixLength",
+  "destination"
+ ],
+ "EIGRPv6Packet": [
+  "version",
+  "operationCode",
+  "checkSum",
+  "flag",
+  "sequenceNumber",
+  "ackNumber",
+  "asNumber"
+ ],
+ "EapPacket": [
+  "code",
+  "identifier",
+  "length"
+ ],
+ "EapolPacket": [
+  "version",
+  "type",
+  "length"
+ ],
+ "EchoMessage": [
+  "code",
+  "checksum",
+  "id",
+  "sequence"
+ ],
+ "EigrpExternal": [
+  "type",
+  "length",
+  "nextHop",
+  "delay",
+  "bandwidth",
+  "mtu",
+  "hopCount",
+  "reliability",
+  "load",
+  "prefixLength",
+  "network",
+  "originalRouter",
+  "routeAS",
+  "adminTag",
+  "externalMetric",
+  "externalProtocolType"
+ ],
+ "EigrpInternal": [
+  "type",
+  "length",
+  "nextHop",
+  "delay",
+  "bandwidth",
+  "mtu",
+  "hopCount",
+  "reliability",
+  "load",
+  "prefixLength",
+  "network"
+ ],
+ "EigrpNeighbor": [
+  "neighborAddress",
+  "portName",
+  "holdTime",
+  "upTime",
+  "seqNumber",
+  "srtt",
+  "rto",
+  "lastHeardTime",
+  "lastUpdateTime"
+ ],
+ "EigrpPacket": [
+  "version",
+  "operationCode",
+  "checkSum",
+  "flag",
+  "sequenceNumber",
+  "ackNumber",
+  "asNumber"
+ ],
+ "EigrpParameters": [
+  "type",
+  "length",
+  "k1",
+  "k2",
+  "k3",
+  "k4",
+  "k5",
+  "reserved",
+  "holdTime"
+ ],
+ "EigrpRoutingEntry": [
+  "typeOfProtocol",
+  "networkId",
+  "subnetMask",
+  "portName",
+  "nextHop",
+  "adminDistance",
+  "metric",
+  "reportedDistance"
+ ],
+ "EigrpSummaryAddress": [
+  "network",
+  "subnetMask",
+  "adminDistance"
+ ],
+ "EigrpTlv": [
+  "type",
+  "length"
+ ],
+ "EigrpTopologyEntry": [
+  "network",
+  "subnetMask",
+  "feasibleDistance",
+  "reportedDistance",
+  "successorCount"
+ ],
+ "EigrpTopologyTable": [],
+ "Eigrpv6External": [
+  "type",
+  "length",
+  "nextHop",
+  "originalRouter",
+  "routeAS",
+  "exMetric",
+  "exProtocolType",
+  "adminTag",
+  "delay",
+  "bandwidth",
+  "mtu",
+  "hopcount",
+  "reliability",
+  "load",
+  "reserved",
+  "prefixLength",
+  "destination"
+ ],
+ "Eigrpv6Internal": [
+  "type",
+  "length",
+  "nextHop",
+  "delay",
+  "bandwidth",
+  "mtu",
+  "hopcount",
+  "reliability",
+  "load",
+  "reserved",
+  "prefixLength",
+  "destination"
+ ],
+ "Eigrpv6Packet": [
+  "version",
+  "operationCode",
+  "checkSum",
+  "flag",
+  "sequenceNumber",
+  "ackNumber",
+  "asNumber"
+ ],
+ "EspHeader": [
+  "nextHeader",
+  "paddingLength",
+  "spi",
+  "sequenceNumber",
+  "padding",
+  "encryptionData",
+  "authenticationData"
+ ],
+ "EthernetHeader": [
+  "dstMacAddress",
+  "srcMacAddress",
+  "frameCheckSequence"
+ ],
+ "EthernetIIHeader": [
+  "dstMacAddress",
+  "srcMacAddress",
+  "frameCheckSequence",
+  "frameType"
+ ],
+ "EthernetIIRctHeader": [
+  "dstMacAddress",
+  "srcMacAddress",
+  "frameCheckSequence",
+  "frameType",
+  "sequenceNumber",
+  "lanIdentifier",
+  "frameSize",
+  "prpSuffix"
+ ],
+ "ExtNatEntry": [
+  "insideLocalIp",
+  "insideGlobalIp",
+  "outsideLocalIp",
+  "outsideGlobalIp",
+  "protocol",
+  "insideLocalPort",
+  "insideGlobalPort",
+  "outsideLocalPort",
+  "outsideGlobalPort"
+ ],
+ "ExtNatv6Entry": [
+  "v6SrcIp",
+  "v6DstIp",
+  "v4SrcIp",
+  "v4DstIp",
+  "protocol",
+  "v6SrcPort",
+  "v6DstPort",
+  "v4SrcPort",
+  "v4DstPort"
+ ],
+ "FTPCommandPacket": [
+  "command",
+  "argument"
+ ],
+ "FTPDataPacket": [
+  "fileName",
+  "directoryName"
+ ],
+ "FTPPacket": [],
+ "FTPResponsePacket": [
+  "code",
+  "message"
+ ],
+ "FileContent": [],
+ "FlowChartNode": [
+  "strID",
+  "description",
+  "isOSIIn",
+  "OSILayerNumber"
+ ],
+ "FlowCollectByteCount": [],
+ "FlowCollectDestinationMask": [],
+ "FlowCollectInterface": [],
+ "FlowCollectNextHop": [],
+ "FlowCollectPacketCount": [],
+ "FlowCollectRoutingAs": [],
+ "FlowCollectSourceMask": [],
+ "FlowCollectStatement": [],
+ "FlowCollectSysUpFirst": [],
+ "FlowCollectSysUpLast": [],
+ "FlowCollectTcpFlags": [],
+ "FlowMatchDestinationAddr": [],
+ "FlowMatchExtension": [],
+ "FlowMatchFlowDirection": [],
+ "FlowMatchFlowLabel": [],
+ "FlowMatchFlowSampler": [],
+ "FlowMatchInterface": [],
+ "FlowMatchProtocol": [],
+ "FlowMatchSourceAddr": [],
+ "FlowMatchStatement": [],
+ "FlowMatchTos": [],
+ "FlowMatchTransport": [],
+ "FlowRecord": [
+  "recordName"
+ ],
+ "FrameDecision": [
+  "osiIn",
+  "osiLayer",
+  "description"
+ ],
+ "FrameRelayHeader": [
+  "DlciNumber",
+  "controlCode",
+  "protocolId",
+  "ciscoEncap",
+  "frameCheckSequence"
+ ],
+ "FrameRelayMapEntry": [
+  "port",
+  "ipAddress",
+  "dlci",
+  "isBroadcast"
+ ],
+ "FtpCommandPacket": [
+  "command",
+  "argument"
+ ],
+ "FtpDataPacket": [
+  "fileName",
+  "directoryName"
+ ],
+ "FtpPacket": [],
+ "FtpResponsePacket": [
+  "code",
+  "message"
+ ],
+ "GreHeader": [
+  "flag",
+  "proposalType"
+ ],
+ "H323Message": [
+  "rtpPort",
+  "macAddress",
+  "strIpAddress",
+  "callerNumber",
+  "calledNumber",
+  "displayCallerFlag",
+  "calledPhoneState"
+ ],
+ "HFLFrame": [],
+ "HTTPHeader": [
+  "isHttps"
+ ],
+ "HTTPHeaderPair": [
+  "field",
+  "value"
+ ],
+ "HTTPPage": [
+  "text"
+ ],
+ "HTTPPost": [],
+ "HTTPRequest": [
+  "isHttps",
+  "version",
+  "fileName",
+  "userName",
+  "password"
+ ],
+ "HTTPRequestHeader": [
+  "isHttps"
+ ],
+ "HTTPResponse": [
+  "isHttps",
+  "version"
+ ],
+ "HTTPResponseHeader": [
+  "isHttps"
+ ],
+ "HTTPsResponse": [
+  "isHttps",
+  "version"
+ ],
+ "HdlcFrame": [
+  "addressField",
+  "controlCode",
+  "typeCode",
+  "frameCheckSequence"
+ ],
+ "Header": [],
+ "HsrpMessage": [
+  "version",
+  "priority",
+  "holdTime",
+  "helloTime",
+  "groupNum",
+  "ipVersion",
+  "virtIp"
+ ],
+ "Hsrpv6Message": [
+  "version",
+  "priority",
+  "holdTime",
+  "helloTime",
+  "groupNum",
+  "ipVersion",
+  "virtIp"
+ ],
+ "HttpHeader": [
+  "isHttps"
+ ],
+ "HttpHeaderPair": [
+  "field",
+  "value"
+ ],
+ "HttpPage": [
+  "text"
+ ],
+ "HttpPost": [],
+ "HttpRequest": [
+  "isHttps",
+  "version",
+  "fileName",
+  "userName",
+  "password"
+ ],
+ "HttpRequestHeader": [
+  "isHttps"
+ ],
+ "HttpResponse": [
+  "isHttps",
+  "version"
+ ],
+ "HttpResponseHeader": [
+  "isHttps"
+ ],
+ "HttpsResponse": [
+  "isHttps",
+  "version"
+ ],
+ "ICMPMessage": [
+  "icmpType",
+  "icmpCode",
+  "icmpChkSum",
+  "identification",
+  "sequenceNumber"
+ ],
+ "ICMPv6Message": [
+  "code",
+  "checksum"
+ ],
+ "IEEE802Dot3Header": [
+  "dstMacAddress",
+  "srcMacAddress",
+  "frameCheckSequence",
+  "lengthType"
+ ],
+ "IEEE802Dot3zHeader": [
+  "dstMacAddress",
+  "srcMacAddress",
+  "frameCheckSequence",
+  "extension"
+ ],
+ "IPCPFrame": [
+  "code",
+  "id",
+  "ipAdd",
+  "gateway"
+ ],
+ "IPCPv6Frame": [
+  "intfId"
+ ],
+ "IPHeader": [
+  "version",
+  "headerLength",
+  "typeOfService",
+  "totalLength",
+  "identification",
+  "flags",
+  "fragmentOffset",
+  "ttl",
+  "protocol",
+  "checksum",
+  "srcAddress",
+  "dstAddress",
+  "options",
+  "padding"
+ ],
+ "IPV6AddressConfig": [
+  "address",
+  "prefix"
+ ],
+ "IPV6FragmentExtensionHeader": [
+  "version",
+  "headerLength",
+  "typeOfService",
+  "totalLength",
+  "identification",
+  "flags",
+  "fragmentOffset",
+  "protocol",
+  "headerChecksum",
+  "options",
+  "padding",
+  "sourceAddress",
+  "destinationAddress",
+  "extReserved",
+  "extFragmentOffset",
+  "extMfFlag",
+  "exIdentification"
+ ],
+ "IPV6Header": [
+  "version",
+  "headerLength",
+  "typeOfService",
+  "totalLength",
+  "identification",
+  "flags",
+  "fragmentOffset",
+  "protocol",
+  "headerChecksum",
+  "options",
+  "padding",
+  "sourceAddress",
+  "destinationAddress"
+ ],
+ "IPV6NextHeader": [
+  "exNextHeader"
+ ],
+ "IcmpMessage": [
+  "icmpType",
+  "icmpCode",
+  "icmpChkSum",
+  "identification",
+  "sequenceNumber"
+ ],
+ "Icmpv6Message": [
+  "code",
+  "checksum"
+ ],
+ "IdPayload": [
+  "length",
+  "reserved",
+  "nextPayloadType",
+  "ipAddress",
+  "dstIpAddress",
+  "srcSubnetMask",
+  "dstSubnetMask",
+  "srcPortNumber",
+  "dstPortNumber",
+  "protocol",
+  "idData"
+ ],
+ "IecPdu": [],
+ "IkePayload": [
+  "length",
+  "reserved",
+  "nextPayloadType"
+ ],
+ "IkePdu": [
+  "initCookie",
+  "responseCookie",
+  "nextPayload",
+  "versionNumber",
+  "exchangeType",
+  "flag",
+  "msgId",
+  "msgLength",
+  "data"
+ ],
+ "InvArpFrame": [
+  "isRequest",
+  "srcIp",
+  "dstIp",
+  "dlci"
+ ],
+ "IoePdu": [
+  "customProtocol",
+  "customPduType",
+  "customFieldsJson"
+ ],
+ "IosBundleFileContent": [],
+ "IosFileContent": [
+  "setName"
+ ],
+ "IoxClientConfigFileContent": [
+  "organizationName",
+  "organizationUrl"
+ ],
+ "IpHeader": [
+  "version",
+  "headerLength",
+  "typeOfService",
+  "totalLength",
+  "identification",
+  "flags",
+  "fragmentOffset",
+  "ttl",
+  "protocol",
+  "checksum",
+  "srcAddress",
+  "dstAddress",
+  "options",
+  "padding"
+ ],
+ "Ipv6AddressConfig": [
+  "address",
+  "prefix"
+ ],
+ "Ipv6FragmentExtensionHeader": [
+  "version",
+  "headerLength",
+  "typeOfService",
+  "totalLength",
+  "identification",
+  "flags",
+  "fragmentOffset",
+  "protocol",
+  "headerChecksum",
+  "options",
+  "padding",
+  "sourceAddress",
+  "destinationAddress",
+  "extReserved",
+  "extFragmentOffset",
+  "extMfFlag",
+  "exIdentification"
+ ],
+ "Ipv6Header": [
+  "version",
+  "headerLength",
+  "typeOfService",
+  "totalLength",
+  "identification",
+  "flags",
+  "fragmentOffset",
+  "protocol",
+  "headerChecksum",
+  "options",
+  "padding",
+  "sourceAddress",
+  "destinationAddress"
+ ],
+ "Ipv6NextHeader": [
+  "exNextHeader"
+ ],
+ "JamSignal": [],
+ "L2NatEntry": [
+  "mask",
+  "activeCount",
+  "totalCount",
+  "direction"
+ ],
+ "L2NatTable": [],
+ "LLCHeader": [
+  "dsap",
+  "ssap",
+  "controlField",
+  "infoField",
+  "length"
+ ],
+ "LMIFrame": [
+  "isRouter"
+ ],
+ "LSLFrame": [],
+ "LacpFrame": [
+  "lacpVersion",
+  "actorInfo",
+  "actorInfoLength",
+  "actorSysPriority",
+  "actorDevice",
+  "actorKey",
+  "actorPortPriority",
+  "actorPort",
+  "partnetInfo",
+  "partnetInfoLength",
+  "partnerSysPriority",
+  "partnetDevice",
+  "partnerKey",
+  "partnetPortPriority",
+  "partnerPort"
+ ],
+ "LcpFrame": [
+  "address",
+  "control",
+  "protocolId",
+  "code",
+  "id",
+  "isPppFrame",
+  "routeIp"
+ ],
+ "LinkLayerOption": [
+  "macAddress"
+ ],
+ "LinksysConfigInfoPage": [
+  "text",
+  "isCgiPage",
+  "deviceXml"
+ ],
+ "LinksysConfigPage": [
+  "text",
+  "isCgiPage",
+  "deviceXml"
+ ],
+ "LinksysFirmwareUpgPage": [
+  "text",
+  "isCgiPage",
+  "deviceXml"
+ ],
+ "LldpPacket": [],
+ "LldpTLV": [
+  "lldpLength"
+ ],
+ "LldpTlv_ChassisID": [
+  "lldpLength",
+  "chassisID"
+ ],
+ "LldpTlv_OrgSpecific": [
+  "lldpLength",
+  "orgUniqueCode",
+  "orgSpecific"
+ ],
+ "LldpTlv_PortDescription": [
+  "lldpLength",
+  "portDescription"
+ ],
+ "LldpTlv_PortID": [
+  "lldpLength",
+  "portID"
+ ],
+ "LldpTlv_SystemCapabilities": [
+  "lldpLength",
+  "systemCapabilities",
+  "systemEnabledCapabilities"
+ ],
+ "LldpTlv_SystemDescription": [
+  "lldpLength",
+  "systemDescription"
+ ],
+ "LldpTlv_SystemName": [
+  "lldpLength",
+  "systemName"
+ ],
+ "LldpTlv_TimeToLive": [
+  "lldpLength",
+  "timeToLive"
+ ],
+ "LmiFrame": [
+  "isRouter"
+ ],
+ "LwappUdpPacket": [],
+ "MACEntry": [
+  "macAddress",
+  "port",
+  "isDynamic"
+ ],
+ "MACTable": [],
+ "MacEntry": [
+  "macAddress",
+  "port",
+  "isDynamic"
+ ],
+ "MacTable": [],
+ "Mail": [
+  "from",
+  "rcpt",
+  "content",
+  "subject",
+  "dateTime"
+ ],
+ "ManagementFrame": [
+  "ssid",
+  "key"
+ ],
+ "MerakiUdpPacket": [],
+ "ModbusPacket": [
+  "data"
+ ],
+ "MtuOption": [
+  "mtu"
+ ],
+ "NATConfigEntry": [
+  "name",
+  "externalPort",
+  "internalPort",
+  "ipAddress",
+  "isEnable"
+ ],
+ "NATEntry": [
+  "insideLocalIp",
+  "insideGlobalIp",
+  "outsideLocalIp",
+  "outsideGlobalIp"
+ ],
+ "NATList": [
+  "aclId",
+  "isOverload"
+ ],
+ "NATListInterface": [
+  "aclId",
+  "isOverload",
+  "port"
+ ],
+ "NATListPool": [
+  "aclId",
+  "isOverload",
+  "pool"
+ ],
+ "NATPool": [
+  "poolName",
+  "startIp",
+  "endIp",
+  "mask"
+ ],
+ "NATTable": [],
+ "NATv6Entry": [
+  "v6SrcIp",
+  "v6DstIp",
+  "v4SrcIp",
+  "v4DstIp"
+ ],
+ "NATv6List": [
+  "aclId",
+  "isOverload"
+ ],
+ "NATv6ListInterface": [
+  "aclId",
+  "isOverload",
+  "port"
+ ],
+ "NATv6ListPool": [
+  "aclId",
+  "isOverload",
+  "pool"
+ ],
+ "NATv6Pool": [
+  "poolName",
+  "startIp",
+  "endIp",
+  "mask"
+ ],
+ "NATv6Table": [],
+ "NFExporterPacket": [
+  "size"
+ ],
+ "NFExporterPacketv9": [
+  "size"
+ ],
+ "NFFlow": [],
+ "NFFlowSet": [
+  "flowSetId",
+  "flowSetLength"
+ ],
+ "NFHeaderv9": [
+  "flowSetCount",
+  "version",
+  "upTime",
+  "unixSeconds",
+  "packageSeq",
+  "sourceId"
+ ],
+ "NFTemplate": [
+  "templateId",
+  "fieldCount",
+  "length"
+ ],
+ "NatConfigEntry": [
+  "name",
+  "externalPort",
+  "internalPort",
+  "ipAddress",
+  "isEnable"
+ ],
+ "NatEntry": [
+  "insideLocalIp",
+  "insideGlobalIp",
+  "outsideLocalIp",
+  "outsideGlobalIp"
+ ],
+ "NatList": [
+  "aclId",
+  "isOverload"
+ ],
+ "NatListInterface": [
+  "aclId",
+  "isOverload",
+  "port"
+ ],
+ "NatListPool": [
+  "aclId",
+  "isOverload",
+  "pool"
+ ],
+ "NatPool": [
+  "poolName",
+  "startIp",
+  "endIp",
+  "mask"
+ ],
+ "NatTable": [],
+ "Natv6Entry": [
+  "v6SrcIp",
+  "v6DstIp",
+  "v4SrcIp",
+  "v4DstIp"
+ ],
+ "Natv6List": [
+  "aclId",
+  "isOverload"
+ ],
+ "Natv6ListInterface": [
+  "aclId",
+  "isOverload",
+  "port"
+ ],
+ "Natv6ListPool": [
+  "aclId",
+  "isOverload",
+  "pool"
+ ],
+ "Natv6Pool": [
+  "poolName",
+  "startIp",
+  "endIp",
+  "mask"
+ ],
+ "Natv6Table": [],
+ "NdMessage": [
+  "code",
+  "checksum"
+ ],
+ "NdOption": [],
+ "NdRoutingEntry": [
+  "typeOfProtocol",
+  "networkId",
+  "subnetMask",
+  "portName",
+  "nextHop",
+  "adminDistance",
+  "metric"
+ ],
+ "NeighborMessage": [
+  "code",
+  "checksum",
+  "isRouter",
+  "isSolicited",
+  "isOverride",
+  "targetAddress"
+ ],
+ "NotificationPayload": [
+  "length",
+  "reserved",
+  "nextPayloadType",
+  "doi",
+  "spi",
+  "notifyType",
+  "notificationData"
+ ],
+ "NtpHeader": [
+  "isNtpServerAuthenticate",
+  "hostIpAddress",
+  "leapIndicator",
+  "ntpVersion",
+  "stratum",
+  "poll",
+  "precision",
+  "rootDelay",
+  "rootDespersion",
+  "refClockID",
+  "refClockTime",
+  "originateTime",
+  "receiveTime",
+  "transmitTime",
+  "srvKeyId",
+  "md5Passwd"
+ ],
+ "OSPFAreaNetwork": [
+  "areaId"
+ ],
+ "OSPFAsExternalLSA": [
+  "networkMask",
+  "eBit",
+  "metric",
+  "forwardingAddress",
+  "externalRouteTag"
+ ],
+ "OSPFDDPacket": [
+  "version",
+  "typeCode",
+  "length",
+  "routerId",
+  "areaId",
+  "checkSum",
+  "authenticationType",
+  "sequence",
+  "mtu",
+  "option",
+  "initBit",
+  "masterBit",
+  "moreBit",
+  "seqNumber"
+ ],
+ "OSPFDatabase": [
+  "routerLsaSeqNum",
+  "networkLsaSeqNum",
+  "summaryLsaSeqNum",
+  "asExternalLsaSeqNum",
+  "type7LsaSeqNum"
+ ],
+ "OSPFHelloPacket": [
+  "version",
+  "typeCode",
+  "length",
+  "routerId",
+  "areaId",
+  "checkSum",
+  "authenticationType",
+  "sequence",
+  "networkMask",
+  "helloInterval",
+  "option",
+  "priority",
+  "deadInterval",
+  "designatedRouter",
+  "backupDesignatedRouter"
+ ],
+ "OSPFLSA": [],
+ "OSPFLSAHeader": [
+  "ipv6",
+  "age",
+  "option",
+  "type",
+  "typev3",
+  "lsId",
+  "advRouter",
+  "seqNumber",
+  "checksum",
+  "length"
+ ],
+ "OSPFLSAckPacket": [
+  "version",
+  "typeCode",
+  "length",
+  "routerId",
+  "areaId",
+  "checkSum",
+  "authenticationType",
+  "sequence"
+ ],
+ "OSPFLSR": [
+  "lsType",
+  "ospfv3LsType",
+  "lsId",
+  "advertisingRouter",
+  "isOspfv3"
+ ],
+ "OSPFLSRPacket": [
+  "version",
+  "typeCode",
+  "length",
+  "routerId",
+  "areaId",
+  "checkSum",
+  "authenticationType",
+  "sequence"
+ ],
+ "OSPFLSUPacket": [
+  "version",
+  "typeCode",
+  "length",
+  "routerId",
+  "areaId",
+  "checkSum",
+  "authenticationType",
+  "sequence"
+ ],
+ "OSPFNeighbor": [
+  "routerId",
+  "address",
+  "port",
+  "priority",
+  "option",
+  "dr",
+  "backupDr",
+  "deadInterval",
+  "areaId",
+  "isMaster",
+  "seqNumber",
+  "isVirtual"
+ ],
+ "OSPFNetworkLSA": [
+  "mask"
+ ],
+ "OSPFPacket": [
+  "version",
+  "typeCode",
+  "length",
+  "routerId",
+  "areaId",
+  "checkSum",
+  "authenticationType",
+  "sequence"
+ ],
+ "OSPFRouterLSA": [
+  "eBit",
+  "bBit",
+  "vBit"
+ ],
+ "OSPFRouterLink": [
+  "linkId",
+  "linkData",
+  "type",
+  "metric"
+ ],
+ "OSPFRoutingEntry": [
+  "typeOfProtocol",
+  "networkId",
+  "subnetMask",
+  "portName",
+  "nextHop",
+  "adminDistance",
+  "metric",
+  "realCost",
+  "advRoute"
+ ],
+ "OSPFSummaryLSA": [
+  "networkMask",
+  "metric"
+ ],
+ "OSPFType7LSA": [
+  "networkMask",
+  "eBit",
+  "metric",
+  "forwardingAddress",
+  "externalRouteTag"
+ ],
+ "OSPFv3DDPacket": [
+  "version",
+  "typeCode",
+  "length",
+  "routerId",
+  "areaId",
+  "checkSum",
+  "authenticationType",
+  "sequence",
+  "mtu",
+  "option",
+  "initBit",
+  "masterBit",
+  "moreBit",
+  "seqNumber",
+  "optionV3"
+ ],
+ "OSPFv3HelloPacket": [
+  "version",
+  "typeCode",
+  "length",
+  "routerId",
+  "areaId",
+  "checkSum",
+  "authenticationType",
+  "sequence",
+  "interfaceId",
+  "priority",
+  "optionV3",
+  "helloInterval",
+  "deadInterval",
+  "designatedRouter",
+  "backupDesignatedRouter"
+ ],
+ "OSPFv6AsExternalLSA": [
+  "EBit",
+  "FBit",
+  "TBit",
+  "metric",
+  "forwardingAddress",
+  "externalRouteTag",
+  "refLinkStateId"
+ ],
+ "OSPFv6InterAreaPrefixLSA": [
+  "metric"
+ ],
+ "OSPFv6InterAreaRouterLSA": [
+  "metric",
+  "designatedRouterId"
+ ],
+ "OSPFv6IntraAreaPrefixLSA": [
+  "referencedLSType",
+  "referencedLinkStateId",
+  "refAdvertisingRouter"
+ ],
+ "OSPFv6LSA": [],
+ "OSPFv6LinkLSA": [
+  "routerPriority",
+  "linkLocalInterfaceAddress"
+ ],
+ "OSPFv6NetworkLSA": [],
+ "OSPFv6OptionField": [
+  "aucOption0",
+  "aucOption1",
+  "aucOption2",
+  "optionV6Bit",
+  "optionEBit",
+  "optionMCBit",
+  "optionNBit",
+  "optionRBit",
+  "optionDCBit"
+ ],
+ "OSPFv6Prefix": [
+  "prefixLength",
+  "prefixOptions",
+  "prefixOptionPBit",
+  "prefixOptionMCBit",
+  "prefixOptionLABit",
+  "prefixOptionNUBit",
+  "zeroField",
+  "addressPrefix"
+ ],
+ "OSPFv6RouterInterface": [
+  "type",
+  "metric",
+  "intefaceId",
+  "neighborInterfaceId",
+  "neighborRouterId"
+ ],
+ "OSPFv6RouterLSA": [
+  "WBit",
+  "VBit",
+  "EBit",
+  "BBit"
+ ],
+ "OSPFv6Type7LSA": [
+  "EBit",
+  "FBit",
+  "TBit",
+  "metric",
+  "forwardingAddress",
+  "externalRouteTag",
+  "refLinkStateId"
+ ],
+ "OpcPdu": [],
+ "OspfAreaNetwork": [
+  "areaId"
+ ],
+ "OspfAsExternalLSA": [
+  "networkMask",
+  "eBit",
+  "metric",
+  "forwardingAddress",
+  "externalRouteTag"
+ ],
+ "OspfDDPacket": [
+  "version",
+  "typeCode",
+  "length",
+  "routerId",
+  "areaId",
+  "checkSum",
+  "authenticationType",
+  "sequence",
+  "mtu",
+  "option",
+  "initBit",
+  "masterBit",
+  "moreBit",
+  "seqNumber"
+ ],
+ "OspfDatabase": [
+  "routerLsaSeqNum",
+  "networkLsaSeqNum",
+  "summaryLsaSeqNum",
+  "asExternalLsaSeqNum",
+  "type7LsaSeqNum"
+ ],
+ "OspfHelloPacket": [
+  "version",
+  "typeCode",
+  "length",
+  "routerId",
+  "areaId",
+  "checkSum",
+  "authenticationType",
+  "sequence",
+  "networkMask",
+  "helloInterval",
+  "option",
+  "priority",
+  "deadInterval",
+  "designatedRouter",
+  "backupDesignatedRouter"
+ ],
+ "OspfLSA": [],
+ "OspfLSAHeader": [
+  "ipv6",
+  "age",
+  "option",
+  "type",
+  "typev3",
+  "lsId",
+  "advRouter",
+  "seqNumber",
+  "checksum",
+  "length"
+ ],
+ "OspfLSAckPacket": [
+  "version",
+  "typeCode",
+  "length",
+  "routerId",
+  "areaId",
+  "checkSum",
+  "authenticationType",
+  "sequence"
+ ],
+ "OspfLSR": [
+  "lsType",
+  "ospfv3LsType",
+  "lsId",
+  "advertisingRouter",
+  "isOspfv3"
+ ],
+ "OspfLSRPacket": [
+  "version",
+  "typeCode",
+  "length",
+  "routerId",
+  "areaId",
+  "checkSum",
+  "authenticationType",
+  "sequence"
+ ],
+ "OspfLSUPacket": [
+  "version",
+  "typeCode",
+  "length",
+  "routerId",
+  "areaId",
+  "checkSum",
+  "authenticationType",
+  "sequence"
+ ],
+ "OspfNeighbor": [
+  "routerId",
+  "address",
+  "port",
+  "priority",
+  "option",
+  "dr",
+  "backupDr",
+  "deadInterval",
+  "areaId",
+  "isMaster",
+  "seqNumber",
+  "isVirtual"
+ ],
+ "OspfNetworkLSA": [
+  "mask"
+ ],
+ "OspfPacket": [
+  "version",
+  "typeCode",
+  "length",
+  "routerId",
+  "areaId",
+  "checkSum",
+  "authenticationType",
+  "sequence"
+ ],
+ "OspfRouterLSA": [
+  "eBit",
+  "bBit",
+  "vBit"
+ ],
+ "OspfRouterLink": [
+  "linkId",
+  "linkData",
+  "type",
+  "metric"
+ ],
+ "OspfRoutingEntry": [
+  "typeOfProtocol",
+  "networkId",
+  "subnetMask",
+  "portName",
+  "nextHop",
+  "adminDistance",
+  "metric",
+  "realCost",
+  "advRoute"
+ ],
+ "OspfSummaryLSA": [
+  "networkMask",
+  "metric"
+ ],
+ "OspfType7LSA": [
+  "networkMask",
+  "eBit",
+  "metric",
+  "forwardingAddress",
+  "externalRouteTag"
+ ],
+ "Ospfv3DDPacket": [
+  "version",
+  "typeCode",
+  "length",
+  "routerId",
+  "areaId",
+  "checkSum",
+  "authenticationType",
+  "sequence",
+  "mtu",
+  "option",
+  "initBit",
+  "masterBit",
+  "moreBit",
+  "seqNumber",
+  "optionV3"
+ ],
+ "Ospfv3HelloPacket": [
+  "version",
+  "typeCode",
+  "length",
+  "routerId",
+  "areaId",
+  "checkSum",
+  "authenticationType",
+  "sequence",
+  "interfaceId",
+  "priority",
+  "optionV3",
+  "helloInterval",
+  "deadInterval",
+  "designatedRouter",
+  "backupDesignatedRouter"
+ ],
+ "Ospfv6AsExternalLSA": [
+  "EBit",
+  "FBit",
+  "TBit",
+  "metric",
+  "forwardingAddress",
+  "externalRouteTag",
+  "refLinkStateId"
+ ],
+ "Ospfv6InterAreaPrefixLSA": [
+  "metric"
+ ],
+ "Ospfv6InterAreaRouterLSA": [
+  "metric",
+  "designatedRouterId"
+ ],
+ "Ospfv6IntraAreaPrefixLSA": [
+  "referencedLSType",
+  "referencedLinkStateId",
+  "refAdvertisingRouter"
+ ],
+ "Ospfv6LSA": [],
+ "Ospfv6LinkLSA": [
+  "routerPriority",
+  "linkLocalInterfaceAddress"
+ ],
+ "Ospfv6NetworkLSA": [],
+ "Ospfv6OptionField": [
+  "aucOption0",
+  "aucOption1",
+  "aucOption2",
+  "optionV6Bit",
+  "optionEBit",
+  "optionMCBit",
+  "optionNBit",
+  "optionRBit",
+  "optionDCBit"
+ ],
+ "Ospfv6Prefix": [
+  "prefixLength",
+  "prefixOptions",
+  "prefixOptionPBit",
+  "prefixOptionMCBit",
+  "prefixOptionLABit",
+  "prefixOptionNUBit",
+  "zeroField",
+  "addressPrefix"
+ ],
+ "Ospfv6RouterInterface": [
+  "type",
+  "metric",
+  "intefaceId",
+  "neighborInterfaceId",
+  "neighborRouterId"
+ ],
+ "Ospfv6RouterLSA": [
+  "WBit",
+  "VBit",
+  "EBit",
+  "BBit"
+ ],
+ "Ospfv6Type7LSA": [
+  "EBit",
+  "FBit",
+  "TBit",
+  "metric",
+  "forwardingAddress",
+  "externalRouteTag",
+  "refLinkStateId"
+ ],
+ "OvaFileContent": [
+  "code",
+  "version"
+ ],
+ "PPPFrame": [
+  "addressField",
+  "controlCode",
+  "typeCode",
+  "frameCheckSequence"
+ ],
+ "PPPoeHeader": [
+  "version",
+  "type",
+  "code",
+  "sessionId",
+  "length",
+  "ipSubnet"
+ ],
+ "PTPPacket": [
+  "ts",
+  "m_msgId",
+  "m_version",
+  "m_messageLength",
+  "m_domainNumber",
+  "m_flag",
+  "m_correctionTime",
+  "m_correctionScaledFractionalTime",
+  "m_sourcePortId",
+  "m_sourcePortNum",
+  "m_sequenceId",
+  "m_control",
+  "m_logMsgInterval",
+  "m_orgTimeSeconds",
+  "m_orgTimeNanoSeconds",
+  "m_requestingSourcePortId",
+  "m_requestingSourcePortNum",
+  "m_currentUtcOffset",
+  "m_grandmasterPri1",
+  "m_class",
+  "m_accuracy",
+  "m_variance",
+  "m_grandmasterPri2",
+  "m_grandmasterId",
+  "m_stepsRemoved",
+  "m_timeSource"
+ ],
+ "PTPTLV": [
+  "type"
+ ],
+ "PaasFileContent": [
+  "pythonCartridge",
+  "yoctoCartridge"
+ ],
+ "PacketTooBigMessage": [
+  "code",
+  "checksum",
+  "mtu"
+ ],
+ "PagpFrame": [
+  "version",
+  "localDevId",
+  "localLearnCapability",
+  "localPriority",
+  "localPortIndex",
+  "localGroupCapability",
+  "localGroupIndex",
+  "partnetDevId",
+  "partnetLearnCapability",
+  "partnetPriority",
+  "partnetPortIndex",
+  "partnetGroupCapability",
+  "partnetGroupIndex",
+  "partnetCount",
+  "deviceName",
+  "portName"
+ ],
+ "PapPacket": [
+  "code",
+  "id",
+  "password",
+  "username",
+  "routeIp"
+ ],
+ "Pdu": [],
+ "PduGroup": [],
+ "Pop3Header": [
+  "name",
+  "user",
+  "mailId",
+  "password",
+  "strSmtpServer",
+  "strPop3Server"
+ ],
+ "PppFrame": [
+  "addressField",
+  "controlCode",
+  "typeCode",
+  "frameCheckSequence"
+ ],
+ "PppoeHeader": [
+  "version",
+  "type",
+  "code",
+  "sessionId",
+  "length",
+  "ipSubnet"
+ ],
+ "PrefixOption": [
+  "prefixLength",
+  "isOnLink",
+  "isAutoConfig",
+  "validLifetime",
+  "preferredLifetime",
+  "prefix"
+ ],
+ "ProfinetFrame": [],
+ "ProfinetPdu": [
+  "customProtocol",
+  "customPduType",
+  "customFieldsJson"
+ ],
+ "ProposalPayload": [
+  "length",
+  "reserved",
+  "nextPayloadType",
+  "proposalNumber",
+  "proposalId",
+  "spiSize",
+  "numTransforms",
+  "spi",
+  "inSpi"
+ ],
+ "RIPPacket": [
+  "command",
+  "version",
+  "routingDomain",
+  "isRedistributed"
+ ],
+ "RIPRoutePacket": [
+  "addressFamily",
+  "routeTag",
+  "ipAddress",
+  "subnetMask",
+  "nextHop",
+  "metric",
+  "isRedistributed"
+ ],
+ "RIPRoutingEntry": [
+  "typeOfProtocol",
+  "networkId",
+  "subnetMask",
+  "portName",
+  "nextHop",
+  "adminDistance",
+  "metric"
+ ],
+ "RIPv6Packet": [
+  "command",
+  "version",
+  "routingDomain",
+  "isRedistributed"
+ ],
+ "RIPv6RoutePacket": [
+  "addressFamily",
+  "routeTag",
+  "ipAddress",
+  "subnetMask",
+  "nextHop",
+  "metric",
+  "isRedistributed"
+ ],
+ "RadiusPacket": [
+  "code",
+  "id",
+  "length",
+  "authenticator",
+  "attributeLength",
+  "attribValue"
+ ],
+ "RepTLV": [
+  "repLength"
+ ],
+ "RepTLV_BPA": [
+  "repLength",
+  "portId",
+  "key",
+  "currentKey",
+  "preferred"
+ ],
+ "RepTLV_EPA": [
+  "repLength"
+ ],
+ "RepTLV_Election": [
+  "repLength",
+  "priority",
+  "bestPortPriority",
+  "currentKey"
+ ],
+ "RepTLV_PA": [
+  "repLength"
+ ],
+ "RipPacket": [
+  "command",
+  "version",
+  "routingDomain",
+  "isRedistributed"
+ ],
+ "RipRoutePacket": [
+  "addressFamily",
+  "routeTag",
+  "ipAddress",
+  "subnetMask",
+  "nextHop",
+  "metric",
+  "isRedistributed"
+ ],
+ "RipRoutingEntry": [
+  "typeOfProtocol",
+  "networkId",
+  "subnetMask",
+  "portName",
+  "nextHop",
+  "adminDistance",
+  "metric"
+ ],
+ "Ripv6Packet": [
+  "command",
+  "version",
+  "routingDomain",
+  "isRedistributed"
+ ],
+ "Ripv6RoutePacket": [
+  "addressFamily",
+  "routeTag",
+  "ipAddress",
+  "subnetMask",
+  "nextHop",
+  "metric",
+  "isRedistributed"
+ ],
+ "RouterAdvertisementMessage": [
+  "code",
+  "checksum",
+  "curHopLimit",
+  "isManagedConfig",
+  "isOtherConfig",
+  "routerLifetime",
+  "reachableTime",
+  "retransTime"
+ ],
+ "RouterSolicitationMessage": [
+  "code",
+  "checksum"
+ ],
+ "RoutingEntry": [
+  "typeOfProtocol",
+  "networkId",
+  "subnetMask",
+  "portName",
+  "nextHop",
+  "adminDistance",
+  "metric"
+ ],
+ "RoutingNetwork": [
+  "network",
+  "subnetMask"
+ ],
+ "RoutingTable": [],
+ "RstpFrame": [
+  "protocolId",
+  "version",
+  "flags",
+  "rootPathCost",
+  "portId",
+  "messageAge",
+  "maxAge",
+  "helloTime",
+  "forwardDelay",
+  "proposal",
+  "agreement"
+ ],
+ "RtpMessage": [
+  "version",
+  "sequenceNumber"
+ ],
+ "STPFrame": [
+  "protocolId",
+  "version",
+  "flags",
+  "rootPathCost",
+  "portId",
+  "messageAge",
+  "maxAge",
+  "helloTime",
+  "forwardDelay"
+ ],
+ "STPId": [
+  "macAddress",
+  "priority"
+ ],
+ "STPTypeLengthValue": [
+  "stpType",
+  "stpLength",
+  "stpValue"
+ ],
+ "SaPayload": [
+  "length",
+  "reserved",
+  "nextPayloadType",
+  "doi",
+  "situation"
+ ],
+ "SccpMessage": [
+  "calledNumber",
+  "callerNumber",
+  "lineNumber",
+  "sccpPort",
+  "rtpPort",
+  "macAddress",
+  "strIpAddress",
+  "systemMsg"
+ ],
+ "SegmentHeader": [
+  "srcPort",
+  "dstPort",
+  "checkSum"
+ ],
+ "Signal": [],
+ "SlarpData": [
+  "code",
+  "address",
+  "mask",
+  "unused",
+  "mySeq",
+  "yourSeq",
+  "reliability",
+  "isHdlcFrame"
+ ],
+ "SmtpHeader": [
+  "smtpHelloArgument",
+  "smtpMailArgument",
+  "smtpRcptArgument",
+  "smtpDataArgument",
+  "mailsubject",
+  "dateTime",
+  "smtpUserPassword"
+ ],
+ "SnapLLCHeader": [
+  "dsap",
+  "ssap",
+  "controlField",
+  "infoField",
+  "length",
+  "orgCode",
+  "protocolId"
+ ],
+ "SnmpHeader": [
+  "version",
+  "community"
+ ],
+ "SnmpPdu": [
+  "requestId",
+  "errorIndex"
+ ],
+ "SshAuthPacket": [
+  "data",
+  "echo",
+  "promptSize",
+  "authenticationKey"
+ ],
+ "SshPacket": [
+  "data",
+  "echo",
+  "promptSize"
+ ],
+ "StaticMac": [
+  "macAddress",
+  "vlanId",
+  "port"
+ ],
+ "StaticRoute": [
+  "typeOfProtocol",
+  "networkId",
+  "subnetMask",
+  "portName",
+  "nextHop",
+  "adminDistance",
+  "metric"
+ ],
+ "StpFrame": [
+  "protocolId",
+  "version",
+  "flags",
+  "rootPathCost",
+  "portId",
+  "messageAge",
+  "maxAge",
+  "helloTime",
+  "forwardDelay"
+ ],
+ "StpId": [
+  "macAddress",
+  "priority"
+ ],
+ "StpTypeLengthValue": [
+  "stpType",
+  "stpLength",
+  "stpValue"
+ ],
+ "SyslogEntry": [
+  "dateTime",
+  "hostIpAddress",
+  "priority",
+  "message"
+ ],
+ "TFTPData": [
+  "blockNo"
+ ],
+ "TFTPError": [
+  "errorMsg"
+ ],
+ "TFTPHeader": [],
+ "TFTPRequest": [
+  "fileName"
+ ],
+ "TFTPResponse": [
+  "blockNo"
+ ],
+ "TacacsPacket": [
+  "majorVersion",
+  "minorVersion",
+  "type",
+  "m_seqNo",
+  "m_flags",
+  "m_sessionId",
+  "m_length",
+  "length",
+  "attribValue"
+ ],
+ "TcpHeader": [
+  "srcPort",
+  "dstPort",
+  "checkSum",
+  "seqNumber",
+  "ackNumber",
+  "dataOffset",
+  "reserved",
+  "controlBits",
+  "windowSize",
+  "urgentPtr",
+  "payloadSize"
+ ],
+ "TcpOption": [
+  "length"
+ ],
+ "TcpOptionMSS": [
+  "length",
+  "maxSegmentSize"
+ ],
+ "TelnetPacket": [
+  "data",
+  "echo",
+  "promptSize"
+ ],
+ "TextFileContent": [
+  "text"
+ ],
+ "TftpData": [
+  "blockNo"
+ ],
+ "TftpError": [
+  "errorMsg"
+ ],
+ "TftpHeader": [],
+ "TftpRequest": [
+  "fileName"
+ ],
+ "TftpResponse": [
+  "blockNo"
+ ],
+ "TimedAsExternalLSA": [],
+ "TimedNetworkLSA": [],
+ "TimedRouterLSA": [],
+ "TimedSummaryLSA": [],
+ "TimedType7LSA": [],
+ "TransformPayload": [
+  "length",
+  "reserved",
+  "nextPayloadType",
+  "transformNumber",
+  "transformId",
+  "encryptionAlgorithm",
+  "hashAlgorithm",
+  "authenticationType",
+  "lifetime",
+  "spiSize",
+  "dhGroupNumber",
+  "bitNumber"
+ ],
+ "TvData": [
+  "text"
+ ],
+ "TvHeader": [
+  "fileLocation"
+ ],
+ "UdpHeader": [
+  "srcPort",
+  "dstPort",
+  "checkSum",
+  "length"
+ ],
+ "UsbData": [],
+ "UsbDebugData": [
+  "data"
+ ],
+ "UsbDeployPdu": [
+  "projectName",
+  "dirContent"
+ ],
+ "UsbFrame": [],
+ "UsbManagementSignal": [
+  "isBegin",
+  "speed"
+ ],
+ "UserDesktopAppCliConfig": [
+  "command",
+  "description"
+ ],
+ "VTPFrame": [
+  "version",
+  "code",
+  "domainName"
+ ],
+ "VTPRequestFrame": [
+  "version",
+  "code",
+  "domainName",
+  "startValue"
+ ],
+ "VTPSubsetFrame": [
+  "version",
+  "code",
+  "domainName",
+  "sequence",
+  "configRevision"
+ ],
+ "VTPSummaryFrame": [
+  "version",
+  "code",
+  "domainName",
+  "followers",
+  "confiRevision",
+  "updaterIp",
+  "updateTimeStamp"
+ ],
+ "VTPVlanInfo": [
+  "status",
+  "vlanType",
+  "vlanId",
+  "vlanName"
+ ],
+ "VarBindings": [
+  "oidString",
+  "oidNumber",
+  "value"
+ ],
+ "VariableSizePdu": [
+  "dataSize"
+ ],
+ "VendorIdPayload": [
+  "length",
+  "reserved",
+  "nextPayloadType",
+  "vendorId"
+ ],
+ "VoiceData": [
+  "msg"
+ ],
+ "VtpFrame": [
+  "version",
+  "code",
+  "domainName"
+ ],
+ "VtpRequestFrame": [
+  "version",
+  "code",
+  "domainName",
+  "startValue"
+ ],
+ "VtpSubsetFrame": [
+  "version",
+  "code",
+  "domainName",
+  "sequence",
+  "configRevision"
+ ],
+ "VtpSummaryFrame": [
+  "version",
+  "code",
+  "domainName",
+  "followers",
+  "confiRevision",
+  "updaterIp",
+  "updateTimeStamp"
+ ],
+ "VtpVlanInfo": [
+  "status",
+  "vlanType",
+  "vlanId",
+  "vlanName"
+ ],
+ "WLCSyslogEntry": [
+  "dateTime",
+  "hostIpAddress",
+  "priority",
+  "message",
+  "prefix"
+ ],
+ "WirelessHeader": [
+  "frameControl",
+  "duration",
+  "id",
+  "macAddress1",
+  "macAddress2",
+  "macAddress3",
+  "sequenceControl",
+  "macAddress4",
+  "crc",
+  "transportSsid"
+ ],
+ "WirelessProfile": [
+  "name",
+  "ssid",
+  "userID",
+  "password",
+  "macAddress",
+  "strength",
+  "key",
+  "isDhcpEnabled",
+  "isDhcpv6Enabled",
+  "ipAddress",
+  "subnetMask",
+  "defaultGateway",
+  "dnsServer",
+  "vlan"
+ ]
+}

@@ -1,0 +1,52 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.kiskander/pt-mcp-server",
+  "title": "Cisco Packet Tracer",
+  "description": "An MCP server that drives a running Cisco Packet Tracer over its native IPC (PTMP) interface, built for CCNA students.",
+  "version": "0.2.0",
+  "packages": [
+    {
+      "registryType": "pypi",
+      "identifier": "pt-mcp-server",
+      "version": "0.2.0",
+      "runtimeHint": "uvx",
+      "transport": {
+        "type": "stdio"
+      },
+      "environmentVariables": [
+        {
+          "name": "PT_HOST",
+          "description": "Host running Packet Tracer (default 127.0.0.1)",
+          "isRequired": false,
+          "format": "string",
+          "isSecret": false
+        },
+        {
+          "name": "PT_PORT",
+          "description": "Packet Tracer IPC port (default 39000)",
+          "isRequired": false,
+          "format": "string",
+          "isSecret": false
+        },
+        {
+          "name": "PT_APP_ID",
+          "description": "ExApp ID (default from `pt-mcp setup`)",
+          "isRequired": false,
+          "format": "string",
+          "isSecret": false
+        },
+        {
+          "name": "PT_APP_KEY",
+          "description": "ExApp key (default from `pt-mcp setup`)",
+          "isRequired": false,
+          "format": "string",
+          "isSecret": true
+        }
+      ]
+    }
+  ],
+  "repository": {
+    "url": "https://github.com/kiskander/pt-mcp-server",
+    "source": "github"
+  }
+}

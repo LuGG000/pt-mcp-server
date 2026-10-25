@@ -1,0 +1,55 @@
+[build-system]
+requires = ["uv-build>=0.9,<0.13"]
+build-backend = "uv_build"
+
+[project]
+name = "pt-mcp-server"
+version = "0.2.0"
+license = "BSD-2-Clause AND LicenseRef-Proprietary"
+license-files = ["LICENSE", "CISCO_LICENSE.md"]
+authors = [{ name = "Kareem Iskander", email = "kiskande@cisco.com" }]
+description = "Cisco Packet Tracer MCP Server (native IPC/PTMP)"
+requires-python = ">=3.12,<3.15"
+readme = "README.md"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "fastmcp>=3.1.1,<4",
+    "pydantic-settings",
+    "uvicorn",
+]
+
+[project.urls]
+Homepage = "https://github.com/kiskander/pt-mcp-server"
+Issues = "https://github.com/kiskander/pt-mcp-server/issues"
+
+[project.scripts]
+pt-mcp = "pt_mcp.__main__:main"
+pt-mcp-server = "pt_mcp.__main__:main"  # so `uvx pt-mcp-server` works; the PyPI name `pt-mcp` belongs to another project
+
+[tool.black]
+line-length = 140
+
+[tool.isort]
+profile = "black"
+line_length = 140
+
+[dependency-groups]
+dev = [
+    "pytest",
+    "pytest-asyncio",
+    "black",
+    "isort",
+    "flake8",
+]
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+asyncio_default_fixture_loop_scope = "session"
+asyncio_default_test_loop_scope = "session"
+log_cli = false
+
+[tool.uv.build-backend]
+module-name = "pt_mcp"  # distribution is pt-mcp-server; the import name stays pt_mcp
