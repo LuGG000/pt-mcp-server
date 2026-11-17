@@ -191,6 +191,29 @@ Use the same `command`/`args` as above in `.cursor/mcp.json` or VS Code's MCP se
   `--pt-path` if Packet Tracer is installed somewhere else.
 - `.pkt` files made on macOS open on Windows and vice versa.
 
+### Windows 11, from a clone (PowerShell)
+
+1. Install uv: `powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"`
+2. Clone and set up:
+
+   ```powershell
+   git clone https://github.com/LuGG000/pt-mcp-server.git
+   cd pt-mcp-server
+   uv sync
+   uv run pt-mcp setup
+   ```
+
+3. In Packet Tracer, add `%USERPROFILE%\pt-mcp\PTMCP.pta` ([Registering with Packet Tracer](#registering-with-packet-tracer)).
+4. Check it: `uv run pt-mcp doctor`.
+5. Register the server with your MCP client, using the absolute path to `uv.exe` (`(Get-Command uv).Source`):
+   - Claude Code: `claude mcp add --scope user packet-tracer -- uv run --project C:\path\to\pt-mcp-server pt-mcp`
+   - Claude Desktop (`%APPDATA%\Claude\claude_desktop_config.json`): set `command` to the full path of `uv.exe` and
+     `args` to `["run", "--project", "C:\\path\\to\\pt-mcp-server", "pt-mcp"]`.
+
+The key is generated per machine, so run `setup` on Windows again instead of copying `PTMCP.pta` or `pt-mcp.env` from
+another computer. This fork's `move_device` tool and the config-directory fix are platform independent, but they have
+been tested only on Linux with Packet Tracer 9.0.0.0810. Windows is tested upstream with Packet Tracer 9.0.1.
+
 ## HTTP transport
 
 By default the server uses stdio: your MCP client starts it. To run it as a long-lived HTTP server instead, for example
