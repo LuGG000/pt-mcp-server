@@ -202,6 +202,7 @@ def setup(
         print("ERROR: meta failed:\n" + (result.stdout + result.stderr).strip())
         return 1
 
+    config_file().parent.mkdir(parents=True, exist_ok=True)
     config_file().write_text(
         "# Written by `pt-mcp setup`. Must match the ExApp registered in Packet Tracer (exapp/PTMCP.pta).\n"
         f"PT_APP_ID={app_id}\nPT_APP_KEY={key}\n"
