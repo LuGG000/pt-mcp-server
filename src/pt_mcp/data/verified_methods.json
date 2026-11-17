@@ -118,6 +118,8 @@
   "isProtocolUp",
   "isSimulationMode",
   "modules",
+  "moveToLocation",
+  "moveToLocationCentered",
   "network",
   "removeCanvasItem",
   "removeDevice",

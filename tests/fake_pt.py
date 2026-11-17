@@ -179,6 +179,14 @@ class Device(Obj):
     def setPower(self, on):
         self.power = on
 
+    def moveToLocation(self, x, y):
+        self.x, self.y = x, y
+        return True
+
+    def moveToLocationCentered(self, x, y):
+        self.x, self.y = x - 20, y - 20  # the fake uses a 40x40 icon
+        return True
+
     def getXCoordinate(self):
         return self.x
 

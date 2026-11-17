@@ -79,6 +79,14 @@ def add_device(c: PTClient, device_type: str, model: str, x: float, y: float, na
     return assigned
 
 
+def move_device_to(c: PTClient, name: str, x: float, y: float, centered: bool) -> DeviceSummary:
+    device = c.device(name)
+    move = device.moveToLocationCentered if centered else device.moveToLocation
+    if not move(round(x), round(y)):
+        raise ValueError(f"Packet Tracer could not move {name!r} to ({x}, {y}).")
+    return summarize_device(device)
+
+
 def register_tools(mcp):  # noqa: C901
     """Register all device-related tools with the FastMCP server."""
 
@@ -161,6 +169,26 @@ def register_tools(mcp):  # noqa: C901
             return await client.run(lambda c: add_device(c, device_type, model, x, y, name))
         except Exception as e:
             logger.exception("Error adding %s %s", device_type, model)
+            raise ToolError(e)
+
+    @mcp.tool(
+        annotations={"title": "Move a Device", "readOnlyHint": False, "destructiveHint": False, "idempotentHint": True},
+    )
+    async def move_device(name: DeviceName, x: Coordinate, y: Coordinate, centered: bool = False) -> DeviceSummary:
+        """
+        Move a device to a position in the logical workspace. By default (x, y) uses the same reference
+        point as the x/y reported by get_devices_in_network; with centered=true (x, y) is the icon's
+        center. Returns the device with its new position. Links stay connected.
+
+        Examples:
+        - "Move R1 to 300,200"
+        - "Place PC1 below the switch"
+        """
+        client = get_pt_client_dep()
+        try:
+            return (await client.run(lambda c: move_device_to(c, name, x, y, centered))).model_dump(exclude_none=True)
+        except Exception as e:
+            logger.exception("Error moving %s", name)
             raise ToolError(e)
 
     @mcp.tool(
