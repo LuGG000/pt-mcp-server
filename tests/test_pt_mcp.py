@@ -20,12 +20,23 @@ async def test_tools_registered(main_mcp_client):
         "get_pt_information",
         "get_devices_in_network",
         "add_device_to_network",
+        "move_device",
         "connect_two_devices",
         "send_cli_command",
         "send_terminal_command",
         "describe_ipc_class",
     } <= names
     assert "call_ipc_api" not in names  # raw IPC is opt-in (PT_MCP_ENABLE_RAW_IPC): it could reach untested methods
+
+
+async def test_move_device(main_mcp_client, fake_pt):
+    await call(main_mcp_client, "add_device_to_network", device_type="router", model="2911", x=10, y=10, name="R1")
+    moved = await call(main_mcp_client, "move_device", name="R1", x=300.4, y=200)
+    assert (moved["name"], moved["x"], moved["y"]) == ("R1", 300, 200)
+    centered = await call(main_mcp_client, "move_device", name="R1", x=300, y=200, centered=True)
+    assert (centered["x"], centered["y"]) == (280, 180)
+    devices = await call(main_mcp_client, "get_devices_in_network")
+    assert [(d["x"], d["y"]) for d in devices] == [(280, 180)]
 
 
 async def test_destructive_tools_are_annotated(main_mcp_client):
